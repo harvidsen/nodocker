@@ -24,11 +24,11 @@
     # };
 
   in {
-    packages.${system}.images = {
+    packages.${system} = {
       simple = import ./images/simple.nix { inherit pkgs; };
       webserver = import ./images/webserver { inherit pkgs; };
       api = import ./images/api { inherit pkgs; };
-      apistreamed = import ./images/api/streamed.nix { inherit pkgs; };
+      # apistreamed = import ./images/api/streamed.nix { inherit pkgs; };
     };
   };
 }
