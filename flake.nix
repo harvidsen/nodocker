@@ -26,6 +26,7 @@
   in {
     packages.${system}.images = {
       simple = import ./images/simple.nix { inherit pkgs; };
+      webserver = import ./images/webserver { inherit pkgs; };
     };
   };
 }

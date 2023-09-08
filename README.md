@@ -8,6 +8,14 @@ https://nixos.org/manual/nixpkgs/stable/#sec-pkgs-dockerTools
 
 ## Guide
 
+Nyttige docker kommandoer
+```bash
+docker image ls -a
+docker container ls -a
+docker run -it --rm <imagename> /bin/sh  # Run interactively (-it) and delete after (--rm)
+```
+
+
 ### Enable docker on NixOS
 
 NixOS config
@@ -23,8 +31,13 @@ NixOS config
 Simple image
 ```
 docker load < $(nix build .#images.simple --print-out-paths)
-docker container run simple:<commit-sha> /bin/sh -c "echo hei"
+docker run simple:<commit-sha> /bin/sh -c "echo hei"
 ```
+
+Webserver
+```
+docker load < $(nix build .#images.webserver --print-out-paths)
+docker run --rm -p 8080:80 -v $PWD/images/webserver:/usr/share/nginx/html webserver
 
 
 - pkgs.dockerTools.buildLayeredImage
