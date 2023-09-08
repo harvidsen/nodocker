@@ -38,6 +38,13 @@ Webserver
 ```
 docker load < $(nix build .#images.webserver --print-out-paths)
 docker run --rm -p 8080:80 -v $PWD/images/webserver:/usr/share/nginx/html webserver
+```
+
+Fastapi
+```
+docker load < $(nix build .#images.api --print-out-paths)
+docker run --rm -p 8080:80 api
+```
 
 
 - pkgs.dockerTools.buildLayeredImage
