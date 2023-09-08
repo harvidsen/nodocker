@@ -24,9 +24,8 @@
     # };
 
   in {
-    # packages.${system} = {
-    #   default = pkgs.midgard.durin;
-    #   docker = import ./docker.nix { inherit pkgs self; };
-    # };
+    packages.${system}.images = {
+      simple = import ./images/simple.nix { inherit pkgs; };
+    };
   };
 }

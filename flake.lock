@@ -1,0 +1,40 @@
+{
+  "nodes": {
+    "azure": {
+      "locked": {
+        "lastModified": 1688126575,
+        "narHash": "sha256-BV9WtDVqQbL2R662/52kxMJwp9RhJK2WXFt1hcYzUKk=",
+        "owner": "kfollesdal",
+        "repo": "nixpkgs",
+        "rev": "7ff11e08bf82b44e7fa1a2dd871ea8e4c5a63010",
+        "type": "github"
+      },
+      "original": {
+        "id": "azure",
+        "type": "indirect"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1694048570,
+        "narHash": "sha256-PEQptwFCVaJ+jLFJgrZll2shQ9VI/7xVhrCYkJo8iIw=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "4f77ea639305f1de0a14d9d41eef83313360638c",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "azure": "azure",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
