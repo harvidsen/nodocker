@@ -16,10 +16,6 @@ It is normal to couple module name with source code url. For repo containing mul
 
 Both `package main` and `func main()` are standard and required names that make an executable.
 
-- function
-- types
-- pointers
-- context
 
 **Install dependencies**
 
@@ -27,3 +23,13 @@ Both `package main` and `func main()` are standard and required names that make 
 go get github.com/go-resty/resty/v2
 go mod tidy # every now and then
 ```
+
+**Concepts**
+
+- [x] variables and memory things
+- [x] types
+- [x] pointers
+- [x] function
+- [x] goroutine
+- [x] channel
+- [x] context
