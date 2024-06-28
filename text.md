@@ -1,2 +1,2 @@
 hei alle
-ny linje
+jeg synes heller dette
