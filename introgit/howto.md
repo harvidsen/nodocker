@@ -1,8 +1,10 @@
 # How to git
 
-Her viser vi noen nyttige kommandoer med git kommandolinjeverktøy, som lar oss gjøre der som står i [git introduksjonen](introgit/README.md). Dette kommandolinjeverktøyet er en av mange måter å arbeide med git på. Uansett hva man ønsker å bruke så er konseptene de samme og terminologien lik. Det viktigste er å finne et verktøy som gjør at man får oversikt og effektivt kan løse sine oppgaver.
+Her viser vi noen nyttige kommandoer med git kommandolinjeverktøy (git cli), som lar oss gjøre der som står i [git introduksjonen](introgit/README.md). Dette kommandolinjeverktøyet er en av mange måter å arbeide med git på. Uansett hva man ønsker å bruke så er konseptene de samme og terminologien lik. Det viktigste er å finne et verktøy som gjør at man får oversikt og effektivt kan løse sine oppgaver.
 
-Gjerne prøv ut dette på dette repoet eller ditt eget.
+Se [her for git å laste ned git cli](https://git-scm.com/downloads), eller utforsk en rekke [grafiske grensesnitt her](https://git-scm.com/downloads/guis) som kan brukes for å gi en mer visuell opplevelse. Det er typisk at de mest populære står øverst.
+
+Gjerne prøv ut disse kommandoene på dette repoet eller ditt eget.
 
 ## Kommandoer
 

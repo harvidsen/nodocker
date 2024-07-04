@@ -6,6 +6,8 @@
 - Samarbeide asynkront på prosjekter
 - Kontrollere arbeid på en felles platform
 
+For å teste ut konseptene i denne guiden kan du se på [howto dokumentet](howto.md) som lister opp nyttige kommandoer med [git kommandolinjeverktøyet](https://git-scm.com/downloads).
+
 ## Hovedprinsipp
 
 ![](../drawio/git_concept.drawio.svg)
